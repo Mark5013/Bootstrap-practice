@@ -1,0 +1,83 @@
+body {
+    line-height: 1.6;
+    background-color: #fefefe;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION */
+.navbar {
+    padding: 1em;
+}
+
+.navbar-brand, .nav-link, .navbar-toggler {
+    color: #d7d7d7;
+}
+
+.brand-icon {
+    font-size: 2rem;
+}
+
+
+.nav-link:hover, .nav-link:focus, 
+.navbar-brand:hover, .navbar-brand:focus {
+    color: white;
+}
+
+/* MAIN */
+
+#main {
+    text-align: center;
+    padding: 5em 5em;
+}
+
+.main-img {
+    width: 100%;
+    transform: rotate(25deg)
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.main-info{
+    margin: 1.5em 0;
+}
+
+/* MODELS */
+#models {
+    padding: 7em 5em;
+}
+
+.carousel-item{
+    padding: 2em;
+}
+
+.carousel-img {
+    max-width: 500px;
+}
+
+.carousel-cap {
+    position: relative;
+    top: 50px;
+    color: #d7d7d7;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #d7d7d7;
+    text-align: center;
+    font-size: .5rem;
+    padding: 5em 7em;
+    letter-spacing: 1px;
+}
+
+.footer-icon {
+    font-size: 1.5em;
+    margin: .5em;
+}
